@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+	<center>
+		<h1>
+			<font color="blue"> BANK INFORMATION </font>
+		</h1>
+	</center>
+
+	<form method="post" action="/MyFirstWeb/BankInfoServlet">
+
+		<table><tr>
+			<td><label for="bankname">Bank Name:</label></td>
+			<td><select id="bankname" name="bankname">
+					<option value="AX">Bank Of Baroda</option>
+					<option value="AL">PNG</option>
+					<option value="DZ">HSBC</option>
+					<option value="AS">Bank of America</option>
+			</select></td>
+			</tr>
+
+			<tr>
+				<td><label for="accountno">Account No:</label></td>
+				<td><input type="number" name="accountno" id="accountno"></td>
+			</tr>
+
+			<tr>
+				<td><label for="ssn">SSN No:</label></td>
+				<td><input type="number" name="ssn" id="ssn"></td>
+			</tr>
+			<tr>
+				<td><input type="submit" value="Submit"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
+
+
+
+
